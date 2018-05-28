@@ -13,7 +13,8 @@ public:
 	void setvalue(int fe, int in);
 	void display();
 	CFeet add(CFeet & objk);
-	CFeet operator +(CFeet & objf);
+	/*Feet operator +(CFeet & objf);*/
+	Feet operator+(CFeet&objf);
 };
 void CFeet::setvalue(int fe, int in)
 {
