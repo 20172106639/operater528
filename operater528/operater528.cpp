@@ -31,6 +31,12 @@ CFeet CFeet::add(CFeet&objf)
 	temp.setvalue(feet + objf.feet, inches + objf.inches);
 	return temp;
 }
+CFeet CFeet::operator +(CFeet &objf)
+{
+	CFeet temp;
+	temp.setvalue(feet + objf.feet, inches + objf.inches);
+	return temp;
+}
 int main()
 {
 	CFeet A, B, C;
