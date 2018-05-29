@@ -67,11 +67,11 @@ else
 }
 }
 	int main()
-{
-	CFeet A, B, C;
-	A.setvalue(1, 1);
-	B.setvalue(-1,-1);
-	C = A-B;
-	C.display();
-	return 0;
-}
+	{
+		CFeet A, B, C, D;
+		A.setvalue(1, 1);
+		B.setvalue(-1, -1);
+		C = A-B;
+		C.display();
+		return 0;
+	}
